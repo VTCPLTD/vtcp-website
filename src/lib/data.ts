@@ -10,8 +10,8 @@ export const siteConfig = {
   phone: '+84 (0) 703250747',
   address: 'TP. Hồ Chí Minh, Việt Nam',
   socials: {
-    facebook: 'https://facebook.com/vtcp.vn',
-    linkedin: 'https://linkedin.com/company/vtcp',
+    facebook: 'https://facebook.com/phamvinhtoan3010',
+    linkedin: 'https://www.linkedin.com/in/phamvinhtoan/',
     github: 'https://github.com/VTCPLTD',
   },
 }
