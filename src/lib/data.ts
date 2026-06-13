@@ -93,7 +93,7 @@ export const projects = [
     category: 'Web Application',
     description:
       'Nền tảng số hóa phong trào thanh niên làm theo lời Bác – ghi nhận, theo dõi và lan tỏa các hoạt động tình nguyện và sáng kiến của đoàn viên, thanh niên trên toàn quốc.',
-    image: 'https://www.vtcp.vn/images/projects/thanh-nien-lam-theo-loi-bac.png',
+    image: '/images/projects/thanh-nien-lam-theo-loi-bac.png',
     tags: ['Web App', 'React', 'Node.js'],
     slug: 'thanh-nien-lam-theo-loi-bac',
     featured: true,
@@ -105,7 +105,7 @@ export const projects = [
     category: 'Enterprise System',
     description:
       'Hệ thống quản lý tài sản toàn diện cho doanh nghiệp – theo dõi vòng đời, khấu hao, bảo trì và kiểm kê tài sản theo thời gian thực với dashboard phân tích trực quan.',
-    image: 'https://www.vtcp.vn/images/projects/quan-ly-tai-san.png',
+    image: '/images/projects/quan-ly-tai-san.png',
     tags: ['ERP', 'Dashboard', 'Real-time'],
     slug: 'quan-ly-tai-san',
     featured: true,
@@ -117,7 +117,7 @@ export const projects = [
     category: 'Enterprise System',
     description:
       'Công cụ quản lý dự án nội bộ – lập kế hoạch, phân công nhiệm vụ, theo dõi tiến độ và báo cáo hiệu suất nhóm, tích hợp thông báo real-time.',
-    image: 'https://www.vtcp.vn/images/projects/quan-ly-du-an.png',
+    image: '/images/projects/quan-ly-du-an.png',
     tags: ['Project Management', 'Collaboration', 'Analytics'],
     slug: 'quan-ly-du-an',
     featured: false,
@@ -129,7 +129,7 @@ export const projects = [
     category: 'Mobile App',
     description:
       'Ứng dụng kiểm tra và xác nhận quy trình công việc theo checklist – giúp đội ngũ vận hành tuân thủ quy trình, giảm sai sót và tăng năng suất.',
-    image: 'https://www.vtcp.vn/images/projects/du-an-icool-checklist.png',
+    image: '/images/projects/du-an-icool-checklist.png',
     tags: ['Mobile', 'Operations', 'Workflow'],
     slug: 'icool-checklist',
     featured: false,
@@ -141,7 +141,7 @@ export const projects = [
     category: 'Web Application',
     description:
       'Hệ thống tìm kiếm thông minh tích hợp full-text search, lọc nâng cao và gợi ý kết quả – tối ưu trải nghiệm tra cứu thông tin nội bộ cho doanh nghiệp.',
-    image: 'https://www.vtcp.vn/images/projects/du-an-icool-search.png',
+    image: '/images/projects/du-an-icool-search.png',
     tags: ['Search', 'AI', 'Internal Tools'],
     slug: 'icool-search',
     featured: false,
@@ -153,7 +153,7 @@ export const projects = [
     category: 'Mobile App',
     description:
       'Ứng dụng di động giao tiếp và cộng tác nội bộ – nhắn tin nhóm, chia sẻ tài liệu, và quản lý thông báo tập trung cho tổ chức.',
-    image: 'https://www.vtcp.vn/images/projects/du-an-icool-touch.png',
+    image: '/images/projects/du-an-icool-touch.png',
     tags: ['Mobile', 'Communication', 'Collaboration'],
     slug: 'icool-touch',
     featured: false,
