@@ -93,7 +93,7 @@ function ProjectCard({
       onClick={onClick}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className={`group relative rounded-2xl glass glass-hover cursor-pointer overflow-hidden ${
+      className={`group relative rounded-2xl border border-white/[0.07] bg-white/[0.04] glass-hover cursor-pointer overflow-hidden ${
         featured ? 'aspect-[4/3]' : 'aspect-square'
       }`}
     >
@@ -179,7 +179,7 @@ function ProjectModal({ project, onClose }: { project: typeof projects[0]; onClo
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.92, opacity: 0, y: 20 }}
         transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-        className="w-full max-w-2xl rounded-3xl glass border border-white/[0.1] overflow-hidden"
+        className="w-full max-w-2xl rounded-3xl border border-white/[0.1] bg-surface-1 overflow-hidden"
         onClick={e => e.stopPropagation()}
       >
         {/* Image */}
