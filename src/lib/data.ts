@@ -159,6 +159,54 @@ export const projects = [
     featured: false,
     color: '#ec4899',
   },
+  {
+    id: 'booking',
+    title: 'Hệ thống đặt lịch Booking',
+    category: 'Web Application',
+    description:
+      'Nền tảng đặt lịch hẹn và quản lý lịch trình dịch vụ thông minh – tối ưu hóa thời gian, tự động nhắc lịch và quản lý nhân sự hiệu quả.',
+    image: '/images/projects/du-an-booking.png',
+    tags: ['Booking System', 'SaaS', 'Scheduler'],
+    slug: 'booking',
+    featured: false,
+    color: '#f59e0b',
+  },
+  {
+    id: 'crm',
+    title: 'Hệ thống quản lý CRM',
+    category: 'Enterprise System',
+    description:
+      'Giải pháp quản lý quan hệ khách hàng chuyên sâu – tự động hóa phễu bán hàng, quản lý thông tin khách hàng, chăm sóc khách hàng và báo cáo doanh thu.',
+    image: '/images/projects/du-an-crm.png',
+    tags: ['CRM', 'Sales', 'Analytics'],
+    slug: 'crm',
+    featured: false,
+    color: '#10b981',
+  },
+  {
+    id: 'edx',
+    title: 'Hệ thống kết nối dữ liệu EDX',
+    category: 'Integration Platform',
+    description:
+      'Nền tảng kết nối các hệ thống dữ liệu có sẵn – đồng bộ và tích hợp dữ liệu thông suốt giữa các nhà thuốc và bệnh viện theo thời gian thực.',
+    image: '/images/projects/du-an-edx.png',
+    tags: ['Integration', 'Data Sync', 'Healthcare'],
+    slug: 'edx',
+    featured: false,
+    color: '#8b5cf6',
+  },
+  {
+    id: 'lms',
+    title: 'Hệ thống quản lý học tập LMS',
+    category: 'Enterprise System',
+    description:
+      'Nền tảng học tập trực tuyến toàn diện – số hóa bài giảng, quản lý tương tác và ghi nhận điểm số cho giáo viên & học sinh; hỗ trợ doanh nghiệp theo dõi lộ trình phát triển và tiến trình học tập của nhân sự.',
+    image: '/images/projects/lms.png',
+    tags: ['LMS', 'Education', 'Corporate Training'],
+    slug: 'lms',
+    featured: false,
+    color: '#ec4899',
+  },
 ]
 
 export const team = [
