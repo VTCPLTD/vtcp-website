@@ -238,6 +238,15 @@ export const team = [
     color: '#10b981',
   },
   {
+    id: 'd84b2e67-ea56-425e-bc7e-f4bf9d2e1a3b',
+    name: 'Thái Thị Dửng',
+    role: 'Chuyên Viên Phân Tích Nghiệp Vụ',
+    bio: 'Phân tích yêu cầu nghiệp vụ chi tiết, đồng hành cùng khách hàng để thiết kế các giải pháp phần mềm tối ưu và hiệu quả.',
+    avatar: '/images/employees/thai-thi-dung.webp',
+    initials: 'TD',
+    color: '#10b981',
+  },
+  {
     id: '56cdc53d-7beb-43a0-a50a-9ff039cd7b72',
     name: 'Giảng Mộng Kha',
     role: 'Quản Trị Nhân Sự',
