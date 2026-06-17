@@ -20,7 +20,7 @@ const footerSections = [
       { label: 'Đội ngũ', href: '#team' },
       { label: 'Dự án', href: '#projects' },
       { label: 'Blog', href: '#' },
-      { label: 'Tuyển dụng', href: 'mailto:careers@vtcp.vn' },
+      { label: 'Tuyển dụng', href: 'mailto:toanpham@vtcp.vn' },
     ],
   },
   {

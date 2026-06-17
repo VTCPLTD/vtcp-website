@@ -229,15 +229,6 @@ export const team = [
     color: '#8b5cf6',
   },
   {
-    id: '52556c71-16a4-4011-8091-04c554fc6fb2',
-    name: 'Lê Thị Dịu',
-    role: 'Chuyên Viên Phân Tích Nghiệp Vụ',
-    bio: 'Cầu nối quan trọng giữa khách hàng và đội ngũ kỹ thuật, phân tích yêu cầu nghiệp vụ để đưa ra giải pháp tối ưu nhất.',
-    avatar: '/images/employees/le-thi-diu.webp',
-    initials: 'TD',
-    color: '#10b981',
-  },
-  {
     id: 'd84b2e67-ea56-425e-bc7e-f4bf9d2e1a3b',
     name: 'Thái Thị Dửng',
     role: 'Chuyên Viên Phân Tích Nghiệp Vụ',
@@ -281,15 +272,6 @@ export const team = [
     avatar: '/images/employees/bui-dong-nhat.webp',
     initials: 'DN',
     color: '#6366f1',
-  },
-  {
-    id: '553582eb-7029-4d13-9e23-4af0dd3b5dc3',
-    name: 'Bùi Thị Minh Thư',
-    role: 'Chuyên Viên Kiểm Thử',
-    bio: 'Phân tích kịch bản kiểm thử, phát hiện lỗi hệ thống nhằm duy trì độ tin cậy và ổn định cao cho sản phẩm.',
-    avatar: '/images/employees/bui-thi-minh-thu.webp',
-    initials: 'MT',
-    color: '#a855f7',
   },
   {
     id: 'a8a182ac-61d7-4b73-91e6-e9439c6378f0',
