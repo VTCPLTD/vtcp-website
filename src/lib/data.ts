@@ -8,7 +8,7 @@ export const siteConfig = {
     'VTCP – công nghệ đích thực tối ưu cuộc sống. Chúng tôi mang đến giải pháp công nghệ toàn diện cho cá nhân, tổ chức và doanh nghiệp.',
   email: 'contact@vtcp.vn',
   phone: '+84 (0) 703250747',
-  address: 'TP. Hồ Chí Minh, Việt Nam',
+  address: '681/24/9 Âu Cơ, Phường Tân Phú, TP. Hồ Chí Minh',
   socials: {
     facebook: 'https://facebook.com/phamvinhtoan3010',
     linkedin: 'https://www.linkedin.com/in/phamvinhtoan/',

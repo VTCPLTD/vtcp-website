@@ -62,6 +62,86 @@ export const viewport: Viewport = {
   initialScale: 1,
 }
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Organization',
+      '@id': 'https://www.vtcp.vn/#organization',
+      'name': 'CÔNG TY TNHH VTCP',
+      'alternateName': 'VTCP',
+      'url': 'https://www.vtcp.vn/',
+      'logo': {
+        '@type': 'ImageObject',
+        '@id': 'https://www.vtcp.vn/#logo',
+        'url': 'https://www.vtcp.vn/apple-touch-icon.png',
+        'caption': 'VTCP Logo',
+      },
+      'image': {
+        '@id': 'https://www.vtcp.vn/#logo',
+      },
+      'description':
+        'CÔNG TY TNHH VTCP chuyên cung cấp giải pháp công nghệ, thiết kế website, phần mềm và chuyển đổi số cho doanh nghiệp.',
+      'email': 'contact@vtcp.vn',
+      'telephone': '+84703250747',
+      'sameAs': [
+        'https://facebook.com/phamvinhtoan3010',
+        'https://www.linkedin.com/in/phamvinhtoan/',
+        'https://github.com/VTCPLTD',
+      ],
+    },
+    {
+      '@type': 'LocalBusiness',
+      '@id': 'https://www.vtcp.vn/#localbusiness',
+      'name': 'CÔNG TY TNHH VTCP',
+      'image': ['https://www.vtcp.vn/og-image.png'],
+      'telephone': '+84703250747',
+      'email': 'contact@vtcp.vn',
+      'priceRange': '$$',
+      'address': {
+        '@type': 'PostalAddress',
+        'streetAddress': '681/24/9 Âu Cơ',
+        'addressLocality': 'Phường Tân Phú',
+        'addressRegion': 'TP. Hồ Chí Minh',
+        'postalCode': '700000',
+        'addressCountry': 'VN',
+      },
+      'geo': {
+        '@type': 'GeoCoordinates',
+        'latitude': '10.7887342',
+        'longitude': '106.6392434',
+      },
+      'hasMap': 'https://maps.google.com/?q=10.7887342,106.6392434',
+      'openingHoursSpecification': [
+        {
+          '@type': 'OpeningHoursSpecification',
+          'dayOfWeek': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          'opens': '08:00',
+          'closes': '17:30',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          'dayOfWeek': 'Saturday',
+          'opens': '08:00',
+          'closes': '12:00',
+        },
+      ],
+      'sameAs': ['https://maps.google.com/?cid=15142012048529629233'],
+      'areaServed': {
+        '@type': 'Country',
+        'name': 'Việt Nam',
+      },
+      'foundingLocation': {
+        '@type': 'Place',
+        'name': 'TP. Hồ Chí Minh',
+      },
+      'parentOrganization': {
+        '@id': 'https://www.vtcp.vn/#organization',
+      },
+    },
+  ],
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
@@ -69,6 +149,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`dark ${inter.variable} ${plusJakartaSans.variable} ${jetbrainsMono.variable}`}
     >
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         {children}
         <SpeedInsights />
       </body>
